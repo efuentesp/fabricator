@@ -64,7 +64,8 @@
     "webpack": "^4.26.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0"
+    "@babel/polyfill": "^7.0.0",
+    "normalize.css": "^8.0.1"
   },
   "optionalDependencies": {}
 }

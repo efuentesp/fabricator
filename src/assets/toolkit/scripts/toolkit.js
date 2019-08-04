@@ -1,9 +1,11 @@
 /**
  * Toolkit JavaScript
  */
-$(document).tooltip();
+// $(document).tooltip();
 
-$('#accordion').accordion({
+$('#accordion-demo').accordion();
+
+$('#panel-demo').accordion({
   collapsible: true,
 });
 
@@ -11,6 +13,12 @@ $('#input_date').datepicker({
   showOn: 'button',
   buttonImage: '/assets/images/calendar.gif',
   buttonImageOnly: true,
+});
+
+$('#tabs').tabs();
+
+$('#btn_open_dialog').click(function() {
+  $('#dialog-demo').dialog();
 });
 
 $('#table_grid').jqGrid({
