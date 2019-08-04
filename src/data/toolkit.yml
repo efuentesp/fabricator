@@ -1,0 +1,11 @@
+colors:
+  primary:
+    Black: '#000000'
+    Dark-Grey: '#373737'
+    Primary-Grey: '#616161'
+    Secondary-Grey: '#8e8e8e'
+    Light-Grey: '#f5f5f5'
+    White: '#ffffff'
+  secondary:
+    Green: '#86ba38'
+    Red: '#eb272c'
