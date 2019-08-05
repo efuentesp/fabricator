@@ -1,4 +1,4 @@
-@import "../vars";
+@import '../vars';
 
 .field {
   display: grid;
@@ -11,10 +11,10 @@
 
   .input {
     height: 1.5em;
-    background-color: $white;
-    border: 1px solid lightgray;
+    background-color: $input_background_color;
+    border: 1px solid $color-sky-dark;
     border-radius: 6px;
-    color: $dark_gray;
+    color: $color-ink-lighter;
     max-width: 100%;
     width: 100%;
 

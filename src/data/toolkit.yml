@@ -1,11 +1,19 @@
 colors:
-  primary:
+  basic:
     Black: '#000000'
-    Dark-Grey: '#373737'
-    Primary-Grey: '#616161'
-    Secondary-Grey: '#8e8e8e'
-    Light-Grey: '#f5f5f5'
     White: '#ffffff'
+  dark_grey:
+    Ink: '#212b36'
+    Ink-Light: '#454f5b'
+    Ink-Lighter: '#637381'
+    Ink-Lightest: '#919eab'
+  light_grey:
+    Sky-Darker: '#c4cdd5'
+    Sky: '#dfe3e8'
+    Sky-Light: '#f4f6f8'
+    Sky-Lighter: '#f9fafb'
+  text:
+    Text: '#212b36'
   secondary:
-    Green: '#86ba38'
-    Red: '#eb272c'
+    Green: '#50b83c'
+    Dark-Red: '#bf0711'

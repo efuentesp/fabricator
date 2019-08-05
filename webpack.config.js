@@ -14,7 +14,7 @@ function getRules() {
       },
     },
     {
-      test: /(\.jpg|\.png)$/,
+      test: /(\.jpg|\.png|\.gif)$/,
       use: [
         {
           loader: 'url-loader',

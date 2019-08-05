@@ -11,13 +11,13 @@ $('#panel-demo').accordion({
 
 $('#input_date').datepicker({
   showOn: 'button',
-  buttonImage: '/assets/images/calendar.gif',
+  buttonImage: '/assets/toolkit/images/calendar_20x20.png',
   buttonImageOnly: true,
 });
 
-$('#tabs').tabs();
+$('#tabs-demo').tabs();
 
-$('#btn_open_dialog').click(function() {
+$('#btn_open_dialog').click(() => {
   $('#dialog-demo').dialog();
 });
 
