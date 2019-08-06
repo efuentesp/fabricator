@@ -1,25 +1,70 @@
 @import '../vars';
 
 .field {
-  display: grid;
-  grid-template-rows: [field-label] 20px [field-control] 24px;
+  padding: 6px;
 
   label {
     display: block;
     font-weight: bold;
+    padding-bottom: 5px;
+
+    span {
+      color: $color-red-dark;
+    }
   }
 
   .input {
-    height: 1.5em;
+    //display: block;
     background-color: $input_background_color;
-    border: 1px solid $color-sky-dark;
+    border: 1px solid $input_border-color;
     border-radius: 6px;
-    color: $color-ink-lighter;
-    max-width: 100%;
-    width: 100%;
+    color: $input_color;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    &:disabled {
+      background-color: $input_background-color_disabled;
+    }
 
     &.is-small {
       width: 125px;
+    }
+
+    &.is-medium {
+      width: 250px;
+    }
+
+    &.is-large {
+      width: 500px;
+    }
+
+    &.has-error {
+      border: 1px solid $color-red-dark;
+    }
+  }
+
+  input {
+    height: 1.6em;
+  }
+
+  p {
+    &.help-text {
+      color: $color-ink-lighter;
+      font-size: 90%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  ul {
+    &.error-list {
+      list-style: none;
+      padding-inline-start: 0;
+      margin-block-start: 0.3em;
+
+      li {
+        color: $color-red-dark;
+      }
     }
   }
 

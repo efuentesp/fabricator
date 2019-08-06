@@ -1,12 +1,3 @@
----
-notes: |
-  Agregar el codigo de JQuery:
-
-      $('#btn_open_dialog').click(() => {
-        $('#dialog-demo').dialog();
-      });
----
-
 <button id="btn_open_dialog">Open Dialog</button>
 
 <div id="dialog-demo" title="Basic dialog">
@@ -15,3 +6,9 @@ notes: |
     dialog window can be moved, resized and closed with the 'x' icon.
   </p>
 </div>
+
+<script>
+  $('#btn_open_dialog').click(() => {
+    $('#dialog-demo').dialog();
+  });
+</script>

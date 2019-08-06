@@ -1,4 +1,16 @@
-<form action="">
-  <div>{{> text-input.text-input}}</div>
-  {{> buttons-large.search-button-large}}
+<form class="search-form is-horizontal" action="">
+  <div class="fieldset">
+    <div>{{> form-field.text-input}}</div>
+    <div>{{> form-field.text-input_medium}}</div>
+    <div>{{> form-field.text-input_required}}</div>
+    <div>{{> form-field.date-picker}}</div>
+    <div>{{> form-field.plus-minus}}</div>
+    <div>{{> form-field.plus-minus}}</div>
+    <div>{{> form-field.text-input_medium}}</div>
+  </div>
+  <div class="buttonset">
+    {{> buttons-large.search-button-large}}
+    {{> buttons-large.clear-button-large}} {{> buttons-large.pdf-button-large}}
+    {{> buttons-large.xls-button-large}}
+  </div>
 </form>
